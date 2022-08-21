@@ -2,7 +2,7 @@
 
 ### Intención
 
-Define una familia de algoritmos encapsula cada uno de ellos y los hace intercambiables. Este patrón permite que los algoritmos varíen de forma independiente a los clientes que los usen.
+Define una familia de algoritmos, encapsula cada uno de ellos y los hace intercambiables. Este patrón permite que los algoritmos varíen de forma independiente a los clientes que los usen.
 
 ### Clasificación
 
@@ -18,7 +18,7 @@ Patrón de Comportamiento
 
 ### Ejemplo Real
 
-Mediante la implementación del patrón de diseño Strategy desarrollaremos una aplicación que permita la autenticación mediante diversos métodos. El usuario podrá autenticarse mediante una configuración de usuario por XML, Base de datos o una configuración en memoria. Mediante el patrón Strategy, nuestro cliente podrá configurar la aplicación para elegir que método de autenticación que le es más conveniente, todo esto, sin necesidad de programar nada adicional.
+Mediante la implementación del patrón de diseño Strategy desarrollaremos una aplicación que permita la autenticación mediante diversos métodos. El usuario podrá autenticarse mediante una configuración de usuario por XML, Base de datos o una configuración en memoria. Mediante el patrón Strategy, nuestro cliente podrá configurar la aplicación para elegir que método de autenticación le es más conveniente, todo esto, sin necesidad de programar nada adicional.
 
 Solución sin el patrón Strategy:
 
