@@ -43,7 +43,8 @@ docker run --detach --name=posmysql --publish 6603:3306 pos-mysql:0.1
 cd ..
 
 
-# Ejecutar Java-App - Preferir que la IDE detecte el proyecto Java, usar solo en caso de que no ------
+# Ejecutar Java-App - Preferir que la IDE detecte el proyecto Java, usar solo en caso de que no. 
+Utilizar GitPod en lugar de CodeSpaces.
 
 cd app/build/classes/java/main
 java oscarblancarte.ipd.strategy.StrategyMain
