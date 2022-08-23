@@ -42,6 +42,16 @@ docker build -t pos-mysql:0.1 .
 docker run --detach --name=posmysql --publish 6603:3306 pos-mysql:0.1
 cd ..
 
+# Consultar el contenedor mysql de modo interactivo ----
+
+docker exec -it posmysql mysql -p
+Enter password: posmysql
+
+mysql> show databases;
+mysql> use pos;
+mysql> show tables;
+mysql> select * from users;
+mysql> exit
 
 # Ejecutar Java-App - Preferir que la IDE detecte el proyecto Java, usar solo en caso de que no. 
 Utilizar GitPod en lugar de CodeSpaces.
