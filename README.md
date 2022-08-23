@@ -45,7 +45,7 @@ cd ..
 # Consultar el contenedor mysql de modo interactivo ----
 
 docker exec -it posmysql mysql -p
-Enter password: posmysql
+Enter password: pospassword
 
 mysql> show databases;
 mysql> use pos;
