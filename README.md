@@ -37,10 +37,7 @@ Solución con el patrón Strategy:
 ```
 # Levantar contenedor de mysql -----------------
 
-cd dockermysql
-docker build -t pos-mysql:0.1 .
-docker run --detach --name=posmysql --publish 6603:3306 pos-mysql:0.1
-cd ..
+docker run --detach --name=posmysql --publish 6603:3306 ricardoqm/pos-mysql:1.0
 
 # Consultar el contenedor mysql de modo interactivo ----
 
